@@ -1,1 +1,18 @@
-<h1>Hello, World!</h1>
+<head>
+    <title>Exdia's Personal Website</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <h2>How are you doing today?</h2>
+    <p>This is my website. It is currently work-in-progress. Please be patient!</p>
+
+    <button id="redirectButton">OK.</button>
+    <script>
+            document.getElementById("redirectButton").addEventListener("click", sendToGoogle);
+
+        function sendToGoogle(){
+            window.location.href="https://google.com";
+        }
+    </script>
+</body>
+
